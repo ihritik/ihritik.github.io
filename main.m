@@ -4,7 +4,8 @@
 
 img=imread=('leaf.png');
 
-I=rgb2gray(img);
+% To Convert a colored image to Gray-scale Image 
+I=rgbToGray(img);
 figure,imshow(I);
 
 
