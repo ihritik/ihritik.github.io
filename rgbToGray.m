@@ -7,9 +7,9 @@ function [gray_img]=rgbToGray(img)
       [x,y,z]=size(img);
       gray_img=zeros(x,y);
 
-      for x=1:x
-        for y=1:y
-              gray_img(x,y)=(R(x,y)*0.2989)+(G(x,y)*0.5870)+(B(x,y)*0.114);
+      for i=1:x
+        for j=1:y
+              gray_img(i,j)=(R(i,j)*0.2989)+(G(i,j)*0.5870)+(B(i,j)*0.114);
           end
       end
       gray_img=uint8(gray_img);
