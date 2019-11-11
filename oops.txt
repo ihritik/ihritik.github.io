@@ -1,0 +1,4 @@
+1. What happens to the visibility of data type of base class when we inherit the base class privately.
+2. Virtual destructor of a class.
+3. Early and Late Binding.
+4. Does friend function violates  Encapsualtion property of the Object Oriented Programming?
